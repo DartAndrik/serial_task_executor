@@ -1,5 +1,5 @@
 name: serial_task_executor
-description: A new Flutter project.
+description: A Dart package providing a simple and efficient way to execute tasks serially.
 version: 0.0.1
 repository: https://github.com/DartAndrik/serial_task_executor
 issue_tracker: https://github.com/DartAndrik/serial_task_executor/issues
