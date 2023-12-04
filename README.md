@@ -1,6 +1,6 @@
 # SerialTaskExecutor
 
-A Dart package providing a simple and efficient way to execute tasks serially, ensuring that each task is completed before the next one begins. `SerialTaskExecutor` is ideal for scenarios where tasks need to be executed in order without overlapping, such as sync operations sequence, networking or file operations.
+A Dart package providing a simple and efficient way to execute tasks serially, ensuring that each task is completed before the next one begins. `SerialTaskExecutor` is useful for scenarios where tasks need to be executed in order without overlapping, such as sync operations sequence, networking or file operations.
 
 ## Features
 
