@@ -21,7 +21,7 @@ To use `SerialTaskExecutor` in your Dart project, add it as a dependency in your
 
 ```yaml
 dependencies:
-  serial_task_executor: ^1.0.0
+  serial_task_executor: ^0.0.1
 ```
 Then import the package in your Dart code:
 
