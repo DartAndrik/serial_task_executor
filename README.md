@@ -1,6 +1,12 @@
-# SerialTaskExecutor
-
+<h2 align="center">SerialTaskExecutor</h2>
 A Dart package providing a simple and efficient way to execute tasks serially, ensuring that each task is completed before the next one begins. `SerialTaskExecutor` is useful for scenarios where tasks need to be executed in order without overlapping, such as sync operations sequence, networking or file operations.
+
+<p align="center">
+<a href="https://pub.dev/packages/serial_task_executor"><img src="https://img.shields.io/pub/v/serial_task_executor.svg" alt="Pub"></a>
+<a href="https://codecov.io/gh/DartAndrik/serial_task_executor"><img src="https://codecov.io/gh/DartAndrik/serial_task_executor/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://github.com/passsy/dart-lint"><img src="https://img.shields.io/badge/style-lint-40c4ff.svg" alt="style: lint"></a>
+</p>
+<p align="center">
 
 ## Features
 
@@ -23,7 +29,9 @@ Then import the package in your Dart code:
 import 'package:serial_task_executor/serial_task_executor.dart';
 
 ```
+
 ## Usage
+
 Create an instance of SerialTaskExecutor:
 ```dart
 final executor = SerialTaskExecutor();
@@ -39,7 +47,9 @@ Future<SomeOperationResult> _runSyncOperationSequence() async {
 }
 ```
 Each task will be executed in the order they were added, and the next task will not start until the current one is completed.
+
 ## Handling Errors
+
 Errors in tasks can be handled using standard try-catch blocks or Future error handling mechanisms:
 ```dart
 executor.executeTask(() async {
